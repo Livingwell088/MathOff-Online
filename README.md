@@ -1,7 +1,7 @@
 # MathOff-Online
 A project made during Hack@WPI 2022 hackathon.
 
-Online Math Racing game similar to existing game known as trivia game.
+Online Math Racing game similar to existing game known as trivia crack. Two players would go head to head.
 - Timed format
 - Scored is kept
 - Random math questions thrown at each people(same question)
