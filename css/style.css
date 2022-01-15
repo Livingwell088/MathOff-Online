@@ -1,0 +1,79 @@
+.body {
+    margin: 0px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+/* Navigation Styling */
+
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+
+}
+
+
+.left {
+    display: flex;
+}
+
+
+.navigation-bar > .left > div {
+    margin-right: 20px;
+    font-size: 1.0 em;
+    text-transform: uppercase;
+}
+
+.navigation-link {
+    height: 25px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navigation-link a {
+    color: darkgray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navigation-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.navigation-link a:hover {
+    color: black;
+}
+
+.active-navigation {
+    border-bottom: 1px solid black;
+}
+
+.active-navigation a {
+    color: black    !important;
+}
+
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.item {
+    position: relative;
+}
+
+
+.Background {
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+}
